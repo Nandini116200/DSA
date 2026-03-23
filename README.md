@@ -1,0 +1,1 @@
+So basically, for the first day of DSA in C++, the question which I have attempted, the solution I have given, is for the question in the data structure array, single-dimensional, static data type, and static in nature.
