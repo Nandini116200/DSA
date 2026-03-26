@@ -76,4 +76,23 @@ using namespace std;
 
     return 0;
  }
+//(7.1) Increment Operator - post increment
+ #include<iostream>
+ using namespace std;
 
+ int main(){
+    int a = 10;
+    int b = a;
+    cout<<"value of b:"<<(a++)<<endl;
+    return 0;
+ }
+//(7.2) pre increment
+#include<iostream>
+using namespace std;
+
+int main(){
+    int a = 10;
+    int b = a;
+    cout<<(++a) <<endl;
+    return 0;
+}
