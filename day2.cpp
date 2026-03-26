@@ -62,5 +62,18 @@ using namespace std;
     return 0;
  }
 
-//(6) 
+//(6) to take out sum of two numbers taking input from user
+ #include<iostream>
+ using namespace std;
+
+ int main(){
+    int number1 , number2;
+    cout<<"Enter number1 = ";
+    cin>>number1;
+    cout<<"Enter number2 = ";
+    cin>>number2;
+    cout<<"The resultant sum of both the number is: "<<(number1 + number2)<<endl;
+
+    return 0;
+ }
 
