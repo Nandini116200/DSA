@@ -1,4 +1,4 @@
-//If-Else statement:
+//If-Else statement: To check if a number is positive or negative
 #include<iostream>
 using namespace std;
 
@@ -10,6 +10,24 @@ int main(){
         cout << "n is positive\n";
     }else{
         cout << "n is negative\n";
+    }
+    return 0;
+}
+
+//To check if a person is eligible to vote or not
+#include<iostream>
+using namespace std;
+
+int main(){
+    int age = 18;
+    cout<<"Enter your age: ";
+    cin>>age;
+
+    if(age >= 18){
+        cout<<"You are eligible to vote.\n";
+    }
+    else{
+        cout<<"You have to wait for few more years.\n";
     }
     return 0;
 }
