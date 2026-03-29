@@ -31,3 +31,24 @@ int main(){
     }
     return 0;
 }
+
+//If-else if- else statement;
+#include<iostream>
+using namespace std;
+
+int main(){
+
+    int marks = 86;
+
+    if (marks>=90){
+        cout<<"You have been passed with grade A\n";
+    }
+    else if (marks>=80){
+        cout<<"You have been passed with division B\n";
+    }
+    else{
+        cout<<"You have been awarded grade C\n";
+    }
+    return 0;
+    }
+    
