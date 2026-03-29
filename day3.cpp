@@ -74,3 +74,21 @@ int main(){
     
     return 0;
 }
+// To check if a number is positive or negative
+#include<iostream>
+using namespace std;
+int main(){
+
+    int integer;
+
+    cout<<"Enter a number:";
+    cin>>integer;
+
+    if(integer >= 0){
+        cout<<"The entered integer is positive\n";
+    }
+    else{
+        cout<<"The entered integer is negative\n";
+    }
+    return 0;
+}
