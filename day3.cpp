@@ -52,3 +52,25 @@ int main(){
     return 0;
     }
     
+
+//To check if specified character is in Uppercase or lowercase
+#include<iostream>
+using namespace std;
+int main(){
+    char character;
+
+    cout<<"Enter a alphabet:";
+    cin>>character;
+
+    if (character >=65 && character < 90){
+        cout<<"The entered alphabet is in UPPERCASE\n";
+    }
+    else if (character >= 97 && character < 122){
+        cout<<"The alphabet is in lowercase\n";
+    }
+    else{
+        cout<<"The entered character does not come under the category of alphabet";
+    }
+    
+    return 0;
+}
