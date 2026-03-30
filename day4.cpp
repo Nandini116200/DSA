@@ -83,17 +83,17 @@ int main(){
     int n = 5;
     for(int i=0; i<n; i++){
         for(int j=1; j<=i+1; j++){
-            cout<<j<<" " ;
+            cout<<j<<"";
         }
         cout<<endl;
     }
     return 0;
 }
 
-(6) /* to print 10
-                210
-                3210
-                43210 */
+(6) /* to print 1 0
+                2 1 0
+                3 2 1 0
+                4 3 2 1 0 */
 #include<iostream>
 using namespace std;
 int main(){
@@ -101,6 +101,24 @@ int main(){
     for(int i=0; i<n; i++){
         for(int j=i+1; j>=0; j--){
             cout<<j<<" ";
+        }
+        cout<<endl;
+    }
+}
+
+(7) /* to print 1 2
+                3 4 5
+                6 7 8 9
+                10 11 12 13 14 */
+#include<iostream>
+using namespace std;
+int main(){
+    int n = 4;
+    int num = 1;
+    for(int i=0; i<n; i++){
+        for(int j=i+1; j>=0; j--){
+            cout<<num<<" ";
+            num++;
         }
         cout<<endl;
     }
