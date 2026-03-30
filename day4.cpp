@@ -18,7 +18,7 @@ int main(){
 }
 
 (2) /*to print pattern ABC
-                   DEF*/
+                       DEF*/
 #include<iostream>
 using namespace std;
 int main(){
